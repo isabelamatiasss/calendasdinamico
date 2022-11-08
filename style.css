@@ -1,0 +1,114 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        90deg, 
+        rgb(196, 112, 245) 0%,
+        rgb(245, 140, 189) 100%
+        ); 
+}
+
+.titulo
+{
+    font-weight: 700;
+    display: grid;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    color: rgba(17, 17, 17, 0.678);
+    font-size: 3rem;
+    font-family: cursive;
+
+}
+
+table{
+
+  top: 140px;
+  left: 425px;
+  right: 0;
+  border: 5px solid rgba(17, 17, 17, 0.678);
+  border-radius: 15px;
+  justify-content: center;
+  position:fixed;
+  display: inline-table;
+
+
+}
+
+tr
+{
+  border: 2.5px solid rgba(17, 17, 17, 0.678);
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+td
+{
+  border: 2.5px solid rgba(17, 17, 17, 0.678);
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.dom
+{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.705);
+}
+
+.domt
+{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 0, 0, 0.705);
+}
+
+.dia
+{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.733);
+}
+
+.diat
+{
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.733);
+}
+
+.sab
+{
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(243, 240, 87, 0.733);
+  }
+
+  .sabt
+  {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(243, 240, 87, 0.733);
+  }
+
+
